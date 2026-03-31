@@ -9,7 +9,8 @@
     },
     "scripts": {
         "start": "node server.js",
-        "test": "node --test"
+        "test": "node --test",
+        "start:paid": "node index-paid.js"
     },
     "keywords": [
         "mcp",
@@ -25,13 +26,14 @@
     },
     "license": "MIT",
     "dependencies": {
-       "@modelcontextprotocol/sdk": "1.21.2",
+        "@modelcontextprotocol/sdk": "1.21.2",
         "axios": "^1.11.0",
         "fastmcp": "^3.33.0",
         "playwright": "^1.51.1",
         "remark": "^15.0.1",
         "strip-markdown": "^6.0.0",
-        "zod": "^3.24.2"
+        "zod": "^3.24.2",
+        "@tomopay/gateway": "^0.1.1"
     },
     "publishConfig": {
         "access": "public"
